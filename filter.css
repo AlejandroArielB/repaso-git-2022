@@ -1,0 +1,27 @@
+body {
+    background-color: aquamarine;
+}
+
+img {
+    /* transition: filter 0.5ms; */
+
+    /* filter: blur(10px);
+    transition: filter 1s; */
+
+    filter: hue-rotate(0deg);
+    transition: filter 2s;
+}
+
+img:hover {
+    /* filter: grayscale(100%); */
+    /* grayscale (0% es imagen original, 100% es escala en grises) */
+
+    /* Si invertimos el filter:grayscale poniendolo en los dos, podemos hacer que la iamgen de blanco y negro pase a color */
+
+    /* filter: blur(0px);
+    
+    Borronea cosas en resumen*/
+
+    filter: hue-rotate(360deg);
+   
+}

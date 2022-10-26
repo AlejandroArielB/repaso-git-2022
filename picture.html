@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiqueta picture</title>
+</head>
+<body>
+    <h1>Etiqueta picture</h1>
+
+    <!-- Picture me permite entregar imagenes diferentes dependiendo del tamaño de pantalla. Con esto logro personalizar más la experiencia en dispositivos móviles y tambien ahorrarle kbs al usuario! -->
+
+    <!-- http://www.responsivelogos.co.uk
+    Muestra imagenes distintas según el dispositivo. -->
+     
+    <picture>
+        <source srcset="spacex-chico.jpeg" media="(max-width: 900px)">
+        <img src="spacex-grande.jpeg" alt="spaceX grande">
+    </picture>
+
+</body>
+</html>
